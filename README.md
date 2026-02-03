@@ -21,7 +21,7 @@ It is inspired by Spacehuhn’s ESP8266 Deauther and extended with a modern web 
 
 ---
 
-✨ Features
+###✨ Features
 
 Evil Twin Framework: Captive portal simulation using familiar login pages.
 
