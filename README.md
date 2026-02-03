@@ -1,61 +1,70 @@
-Perfect 😎 — I’ll rewrite your full CredSniper README in a clean, beginner-friendly GitHub style, using icons + headings for every section. This will be ready to paste directly into GitHub.
-
-Here’s the complete version:
-
-
----
-
 # 🔐 CredSniper v3.0
+
+CredSniper is an Advance Level **ESP8266 Wi‑Fi security assessment tool** designed to help users learn how wireless attacks work and why Wi‑Fi security matters.
 
 ![image](https://iili.io/fZQSlIt.md.png)
 
 ---
 
 ## 📖 What is CredSniper?
-CredSniper is a beginner-friendly ESP8266 Wi‑Fi security testing tool.  
-It helps you **learn how Wi‑Fi security works** and understand wireless attack simulations in a safe environment.  
+
+CredSniper is a standalone project that runs entirely on an **ESP8266 NodeMCU**.  
+It creates a Wi‑Fi access point with a **web‑based control panel** where different Wi‑Fi attack simulations can be tested in a controlled and authorized environment.
+
+This tool focuses on **education, learning, and security awareness**.
 
 ---
 
 ## ✨ Features
 
-### 🎣 Evil Twin
-Fake Wi‑Fi login portals to demonstrate credential risks.
+### 🎭 Evil Twin Attacks
+Create fake Wi‑Fi access points with realistic login pages to demonstrate how users can be tricked into entering credentials.
 
-### 💣 Deauthentication Attack
-Simulate Wi‑Fi client disconnections for learning purposes.
+---
+
+### 💣 Deauthentication Attacks
+Disconnect devices from a Wi‑Fi network to study reconnection behavior and wireless security weaknesses.
+
+---
 
 ### 📡 Beacon Spam
-Flood the environment with fake SSIDs to understand wireless behavior.
+Create multiple fake Wi‑Fi networks (SSIDs) to simulate crowded wireless environments and RF stress testing.
 
-### 🖥️ Web Control Panel
-Control and monitor attacks through a simple browser interface.
+---
+
+### 🖥️ Web Interface
+Control all features through a clean and simple browser‑based dashboard without using serial commands.
+
+---
+
+### 🔑 Credential Capture
+Save submitted login attempts locally on the device for educational analysis and awareness training.
+
+---
+
+### 📶 Network Scanning
+Scan and display nearby Wi‑Fi networks to understand signal strength, channels, and visibility.
+
+---
+
+### 🧩 Custom HTML Upload
+Upload your own custom HTML pages for captive portals and fully customize fake login designs.
 
 ---
 
 ## 🔌 Hardware Requirements
 
-### 🛠️ ESP8266 Board
-NodeMCU ESP‑12E / ESP‑12F
-
-### 🔌 USB Cable
-For power and flashing the board.
-
-### 📡 Optional
-External Wi‑Fi antenna (for lab testing)
+- ESP8266 NodeMCU (ESP‑12E / ESP‑12F)
+- Micro‑USB cable
+- Optional: External Wi‑Fi antenna (for lab testing)
 
 ---
 
 ## 💻 Software Requirements
 
-### 🖥️ Arduino IDE
-To compile and upload the firmware.
-
-### 📦 ESP8266 Board Package
-Install via Arduino Boards Manager.
-
-### 🔧 USB Drivers
-CH340 / CP210x, depending on your board.
+- Arduino IDE
+- ESP8266 Board Package
+- USB driver (CH340 / CP210x)
 
 ---
 
@@ -63,17 +72,17 @@ CH340 / CP210x, depending on your board.
 
 - Android smartphones
 - iOS devices
-- Windows PCs
-- Linux systems
+- Windows
+- Linux
 - macOS
 
 ---
 
-## 🧠 Basic Knowledge (Recommended)
+## 🧠 Recommended Knowledge
 
 - Basic Arduino IDE usage
-- Understanding of Wi‑Fi networks
-- Uploading sketches to ESP8266
+- Basic understanding of Wi‑Fi networks
+- How to upload sketches to ESP boards
 
 ---
 
@@ -104,17 +113,29 @@ cd CredSniper
 
 🌐 Device Access
 
+After flashing the firmware:
+
 Wi‑Fi SSID : CredSniper
 Password  : dewdew5218
 Web Panel : http://192.168.4.1
 
+Open a browser and visit the web panel to control the tool.
+
 
 ---
 
-⚠️ Disclaimer
+🎯 Use Cases
 
-CredSniper is for educational and authorized testing only.
-Do not use on networks you do not own or do not have explicit permission to test.
+Wi‑Fi security learning
+
+Cybersecurity education
+
+Authorized penetration testing
+
+Security awareness demonstrations
+
+ESP8266 experimentation
+
 
 
 ---
@@ -123,16 +144,31 @@ Do not use on networks you do not own or do not have explicit permission to test
 
 Spacehuhn — ESP8266 Deauther & Wi‑Fi research
 
-Open-source ESP8266 community
+ESP8266 open‑source community
 
+
+This project is inspired by existing open‑source research and tools.
+
+
+---
+
+⚠️ Disclaimer
+
+CredSniper is intended for educational and authorized security testing only.
+
+Use only on networks you own
+
+Or networks you have explicit permission to test
+
+
+The developer is not responsible for misuse, damage, or illegal activity.
 
 
 ---
 
 📜 License
 
-This project is released for educational purposes only.
-See the LICENSE file for details.
+This project is released for educational purposes.
+See the LICENSE file for more information.
 
-
-
+---
