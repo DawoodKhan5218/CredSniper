@@ -1,7 +1,7 @@
 🔐 CredSniper v3.0
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/spacehuhntech/esp8266_deauther/master/images/logo.png" width="150" alt="CredSniper Logo">
+  <img src="[https://raw.githubusercontent.com/spacehuhntech/esp8266_deauther/master/images/logo.png](https://freeimage.host/i/fZQSlIt)" width="150" alt="CredSniper Logo">
 </p>
 
 ESP8266 WiFi Security Assessment Tool
