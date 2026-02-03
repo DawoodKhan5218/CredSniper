@@ -127,42 +127,37 @@ Web Panel : http://192.168.4.1
 
 ## 🎯 Use Cases
 
-Wi‑Fi security learning
+1: Wi‑Fi security learning
 
-Cybersecurity education
+2: Cybersecurity education
 
-Authorized penetration testing
+3: Authorized penetration testing
 
-Security awareness demonstrations
+4: Security awareness     demonstrations
 
-ESP8266 experimentation
+5: ESP8266 experimentation**
 
 
 
 ---
 
 ## 🙏 Credits
+**Spacehuhn Deauther**
 
-Spacehuhn — ESP8266 Deauther & Wi‑Fi research
-
-ESP8266 open‑source community
-
-
-This project is inspired by existing open‑source research and tools.
+*-This project is inspired by existing open‑source research and tools.*
 
 
 ---
 
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-CredSniper is intended for educational and authorized security testing only.
+**CredSniper is intended for educational and authorized security testing only.**
 
-Use only on networks you own
+*Use only on networks you own*
 
-Or networks you have explicit permission to test
+*Or networks you have explicit permission to test*
 
-
-The developer is not responsible for misuse, damage, or illegal activity.
+*The developer is not responsible for misuse, damage, or illegal activity.*
 
 
 ---
