@@ -1,6 +1,8 @@
+---
+
 # 🔐 CredSniper v3.0
 
-CredSniper is an Advance Level **ESP8266 Wi‑Fi security assessment tool** designed to help users learn how wireless attacks work and why Wi‑Fi security matters.
+CredSniper is a beginner‑friendly **ESP8266 Wi‑Fi security assessment tool** designed to help users understand wireless attacks and improve Wi‑Fi security awareness.
 
 ![image](https://iili.io/fZQSlIt.md.png)
 
@@ -22,10 +24,6 @@ Create fake Wi‑Fi access points with realistic login pages to demonstrate how 
 
 ---
 
-###🎨 6 Default Phishing Templates
- (Google, Instagram,Facebook, TikTok,Pinterest,Apple)
-
-
 ### 💣 Deauthentication Attacks
 Disconnect devices from a Wi‑Fi network to study reconnection behavior and wireless security weaknesses.
 
@@ -42,17 +40,21 @@ Control all features through a clean and simple browser‑based dashboard withou
 ---
 
 ### 🔑 Credential Capture
-Save submitted login attempts locally on the device for educational analysis and awareness training.
+Save submitted login attempts locally on the device for educational analysis and security awareness training.
 
 ---
 
 ### 📶 Network Scanning
-Scan and display nearby Wi‑Fi networks to understand signal strength, channels, and visibility.
+Scan and display nearby Wi‑Fi networks to understand signal strength, channels, and network visibility.
 
 ---
 
 ### 🧩 Custom HTML Upload
-Upload your own custom HTML pages for captive portals and fully customize fake login designs.
+Upload your own custom HTML pages for captive portals, allowing full customization of fake login designs.
+
+---
+
+### 🎨 6 Default Phishing Templates (Google, Instagram, Facebook, TikTok, Pinterest, Apple)
 
 ---
 
@@ -123,8 +125,6 @@ Wi‑Fi SSID : CredSniper
 Password  : dewdew5218
 Web Panel : http://192.168.4.1
 
-Open a browser and visit the web panel to control the tool.
-
 
 ---
 
@@ -176,3 +176,4 @@ This project is released for educational purposes.
 See the LICENSE file for more information.
 
 ---
+
