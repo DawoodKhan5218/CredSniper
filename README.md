@@ -69,7 +69,7 @@ Upload your own custom HTML pages for captive portals, allowing full customizati
 ## 💻 Software Requirements
 
 - Arduino IDE
-- ESP8266 Board Package
+- ESP8266 Deauther Board Package
 - USB driver (CH340 / CP210x)
 
 ---
@@ -94,10 +94,7 @@ Upload your own custom HTML pages for captive portals, allowing full customizati
 
 ## ⚙️ Installation
 
-### 📂 Clone the Repository
-```bash
-git clone https://github.com/yourusername/CredSniper
-cd CredSniper
+### 📥 Download CredSniper.ino file
 
 💾 Upload the Code
 
