@@ -19,19 +19,19 @@ It is inspired by Spacehuhn’s ESP8266 Deauther and extended with a modern web 
 
 
 
-✨ Features
+## Features
 
-Evil Twin Framework: Captive portal simulation using familiar login pages.
+### 🎣 Evil Twin
+Create fake login portals to test user awareness and credential security.
 
-Deauthentication Engine: Wireless disruption testing for client reassociation behavior.
+### 💣 Deauthentication Attack
+Simulate Wi-Fi client disconnections to study network behavior.
 
-Beacon Spam Module: RF environment stress‑testing via SSID flooding.
+### 📡 Beacon Spam
+Flood the network with fake SSIDs to test wireless environment response.
 
-Web-Based Control Panel: Fully browser‑controlled interface (no serial needed).
-
-Standalone Operation: Runs entirely on ESP8266 without external hardware.
-
-Long Runtime Stability: Designed for extended testing sessions.
+### 🖥️ Web Control Panel
+Control attacks and monitor status from a simple browser interface.
 
 
 
