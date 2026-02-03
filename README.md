@@ -37,7 +37,7 @@ Tools → Boards Manager → Install "esp8266"
 
 ---
 
-✨ Features
+<strong>✨ Features</strong>
 
 <p align="center">
   
@@ -71,8 +71,38 @@ Tools → Boards Manager → Install "esp8266"
 ---
 
 🙏 Credits
-
-
 CredSniper builds upon Spacehuhn's ESP8266 Deauther methodologies.
+
+📜 Full Legal Text
+
+FOR AUTHORIZED SECURITY TESTING ONLY
+
+This tool is designed for:
+
+· Security education and awareness
+· Authorized penetration testing
+· Controlled research environments
+· Improving defensive security
+
+You MUST:
+
+1. Have explicit written permission
+2. Only test networks you own
+3. Follow all applicable laws
+4. Document all testing activities
+5. Use responsibly and ethically
+
+Violators may face:
+
+· Criminal charges under computer fraud laws
+· Civil lawsuits for damages
+· Academic/employment consequences
+· Legal penalties in your jurisdiction
+
+---
+
+<p align="center">
+  <i>Use knowledge to protect, not harm.</i>
+</p>
 
 
