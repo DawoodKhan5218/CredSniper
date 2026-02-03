@@ -22,6 +22,10 @@ Create fake Wi‑Fi access points with realistic login pages to demonstrate how 
 
 ---
 
+###🎨 6 Default Phishing Templates
+ (Google, Instagram,Facebook, TikTok,Pinterest,Apple)
+
+
 ### 💣 Deauthentication Attacks
 Disconnect devices from a Wi‑Fi network to study reconnection behavior and wireless security weaknesses.
 
