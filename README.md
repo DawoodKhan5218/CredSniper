@@ -2,7 +2,7 @@
 
 # 🔐 CredSniper v3.0
 
-CredSniper is a beginner‑friendly **ESP8266 Wi‑Fi security assessment tool** designed to help users understand wireless attacks and improve Wi‑Fi security awareness.
+CredSniper is an advance level **ESP8266 Wi‑Fi security assessment tool** designed to help users understand wireless attacks and improve Wi‑Fi security awareness.
 
 ![image](https://iili.io/fZQSlIt.md.png)
 
