@@ -7,6 +7,7 @@ CredSniper is an advance level **ESP8266 Wi‑Fi security assessment tool** desi
 ![image](https://iili.io/fZQSlIt.md.png)
 
 ---
+[![Wiki](https://img.shields.io/badge/Wiki-Documentation-blue)](https://github.com/DawoodKhan5218/CredSniper/wiki)
 
 ## 📖 What is CredSniper?
 
