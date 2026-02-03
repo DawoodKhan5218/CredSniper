@@ -40,7 +40,7 @@ Tools → Boards Manager → Install "esp8266"
 ✨ Features
 
 <p align="center">
-  <img src="https://iili.io/fZQSlIt.md.png" width="100" style="vertical-align: middle;"> &nbsp;
+  
   <strong>Evil Twin</strong> • <strong>Deauth</strong> • <strong>Beacon Spam</strong> • <strong>Web Interface</strong>
 </p>
 
@@ -72,21 +72,7 @@ Tools → Boards Manager → Install "esp8266"
 
 🙏 Credits
 
-<p align="center">
-  <a href="https://freeimage.host/i/fZQSlIt">
-    <img src="https://iili.io/fZQSlIt.md.png" width="80" style="vertical-align: middle;">
-  </a>
-  &nbsp; + &nbsp;
-  <a href="https://github.com/spacehuhntech">
-    <img src="https://raw.githubusercontent.com/spacehuhntech/brand/master/logo/spacehuhn_logo_light.svg" width="80" style="vertical-align: middle;">
-  </a>
-</p>
 
 CredSniper builds upon Spacehuhn's ESP8266 Deauther methodologies.
 
----
 
-<p align="center">
-  <img src="https://iili.io/fZQSlIt.md.png" width="50" style="vertical-align: middle;"> &nbsp;
-  <b>CredSniper v3.0</b> | For Security Education
-</p>
