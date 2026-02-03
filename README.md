@@ -114,7 +114,7 @@ Upload your own custom HTML pages for captive portals, allowing full customizati
 
 ---
 
-🌐 Device Access
+## 🌐 Device Access
 
 After flashing the firmware:
 
@@ -125,7 +125,7 @@ Web Panel : http://192.168.4.1
 
 ---
 
-🎯 Use Cases
+## 🎯 Use Cases
 
 Wi‑Fi security learning
 
@@ -141,7 +141,7 @@ ESP8266 experimentation
 
 ---
 
-🙏 Credits
+## 🙏 Credits
 
 Spacehuhn — ESP8266 Deauther & Wi‑Fi research
 
@@ -153,7 +153,7 @@ This project is inspired by existing open‑source research and tools.
 
 ---
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 CredSniper is intended for educational and authorized security testing only.
 
@@ -167,8 +167,7 @@ The developer is not responsible for misuse, damage, or illegal activity.
 
 ---
 
-📜 License
-
+# 📜 License
 This project is released for educational purposes.
 See the LICENSE file for more information.
 
