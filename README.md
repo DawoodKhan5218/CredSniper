@@ -1,7 +1,9 @@
 🔐 CredSniper v3.0
 
 <p align="center">
-  <img src="https://freeimage.host/i/fZQSlIt" width="150" alt="CredSniper Logo">
+  <a href="https://freeimage.host/i/fZQSlIt">
+    <img src="https://iili.io/fZQSlIt.md.png" width="200" alt="CredSniper Logo" border="0">
+  </a>
 </p>
 
 ESP8266 WiFi Security Assessment Tool
@@ -12,7 +14,7 @@ Inspired by Spacehuhn's ESP8266 Deauther
 ⚠️ Legal Notice
 
 FOR AUTHORIZED SECURITY TESTING ONLY
-Use only on networks you own or have explicit permission to test. Unauthorized access is illegal.
+Use only on networks you own or have explicit permission to test.
 
 ---
 
@@ -20,102 +22,71 @@ Use only on networks you own or have explicit permission to test. Unauthorized a
 
 1. Arduino IDE Setup
 
-1. Install Arduino IDE
-2. File → Preferences → Add URL:
-   ```
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-3. Tools → Boards Manager → Install "esp8266"
+```bash
+File → Preferences → Add URL:
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-2. Upload Code
+Tools → Boards Manager → Install "esp8266"
+```
 
-1. Open CredSniper.ino
-2. Select Board: NodeMCU 1.0
-3. Flash Size: 4MB (FS:1MB)
-4. Port: Select your COM port
-5. Click Upload
+2. Upload & Connect
 
-3. Connect to Device
-
-1. Power ESP8266
-2. WiFi: CredSniper (Password: dewdew5218)
+1. Upload CredSniper.ino (NodeMCU 1.0, 4MB Flash)
+2. WiFi: CredSniper | Password: dewdew5218
 3. Browser: 192.168.4.1
 
 ---
 
-✨ Core Features
+✨ Features
 
-🎣 Evil Twin System
+<p align="center">
+  <img src="https://iili.io/fZQSlIt.md.png" width="100" style="vertical-align: middle;"> &nbsp;
+  <strong>Evil Twin</strong> • <strong>Deauth</strong> • <strong>Beacon Spam</strong> • <strong>Web Interface</strong>
+</p>
 
-· Fake login portals (Google, Instagram, Facebook, TikTok, Pinterest, Apple)
+🎣 Evil Twin
+
+· Google/Instagram/Facebook/TikTok portals
 · Auto credential capture
-· Returns to admin after capture
+· Template system
 
 💣 Deauth Attack
 
-· 200ms timing for maximum effectiveness
-· Broadcast & targeted modes
+· 200ms interval (optimized)
+· Works on Android & iPhone
 · Channel synchronized
 
 🎵 Beacon Spam
 
 · 70+ One Direction SSIDs
-· Channel hopping (1,6,11)
-· Stable long-term operation
+· Spacehuhn's proven method
+· 80+ minute stability
 
-📱 Web Control Panel
+📱 Web Control
 
 · Real-time monitoring
 · Network scanner
 · File management
-· Easy to use interface
-
----
-
-📸 Screenshot
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/spacehuhntech/esp8266_deauther/master/screenshots/webif.png" width="600" alt="Web Interface">
-</p>
 
 ---
 
 🙏 Credits
 
 <p align="center">
-  <a href="https://github.com/spacehuhntech">
-    <img src="https://raw.githubusercontent.com/spacehuhntech/brand/master/logo/spacehuhn_logo_light.svg" width="100" alt="Spacehuhn">
+  <a href="https://freeimage.host/i/fZQSlIt">
+    <img src="https://iili.io/fZQSlIt.md.png" width="80" style="vertical-align: middle;">
   </a>
-  <br>
-  Special thanks to <b>Spacehuhn</b> for the ESP8266 Deauther project
+  &nbsp; + &nbsp;
+  <a href="https://github.com/spacehuhntech">
+    <img src="https://raw.githubusercontent.com/spacehuhntech/brand/master/logo/spacehuhn_logo_light.svg" width="80" style="vertical-align: middle;">
+  </a>
 </p>
 
-· Spacehuhn - Beacon spam methodology and ESP8266 Deauther inspiration
-· ESP8266 Community - Hardware support and libraries
-· Security Researchers - Testing and feedback
-
-This tool builds upon proven techniques from Spacehuhn's security research.
-
----
-
-❓ Quick Help
-
-· No WiFi AP? Check serial monitor (115200 baud)
-· Upload fails? Install CH340 drivers
-· Web not loading? Clear browser cache
-· Weak signal? Use external antenna
-
----
-
-📄 License
-
-Educational & Authorized Security Research Only
-
-Use responsibly to improve security, not compromise it.
+CredSniper builds upon Spacehuhn's ESP8266 Deauther methodologies.
 
 ---
 
 <p align="center">
-  <b>CredSniper v3.0</b><br>
-  <i>Inspired by Spacehuhn's work | For Security Education</i>
+  <img src="https://iili.io/fZQSlIt.md.png" width="50" style="vertical-align: middle;"> &nbsp;
+  <b>CredSniper v3.0</b> | For Security Education
 </p>
