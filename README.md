@@ -1,8 +1,7 @@
----
 
-# 🔐 CredSniper v3.0
+# 🔐 CredSniper v4.0
 
-CredSniper is an advance level **ESP8266 Wi‑Fi security assessment tool** designed to help users understand wireless attacks and improve Wi‑Fi security awareness.
+CredSniper is an advanced **ESP8266 Wi‑Fi security assessment tool** designed for education, learning, and authorised security testing.
 
 ![image](https://iili.io/fZQSlIt.md.png)
 
@@ -21,75 +20,102 @@ This tool focuses on **education, learning, and security awareness**.
 ## ✨ Features
 
 ### 🎭 Evil Twin Attacks
-Create fake Wi‑Fi access points with realistic login pages to demonstrate how users can be tricked into entering credentials.
-
----
+Create fake Wi‑Fi access points with realistic login pages to demonstrate how users can be tricked into entering credentials.  
+**6 built‑in social‑media templates** are included: **Google (3‑step verification), Instagram, Facebook, TikTok, Pinterest, and Apple**.  
+The Google template displays the victim’s email address on the password page.
 
 ### 💣 Deauthentication Attacks
-Disconnect devices from a Wi‑Fi network to study reconnection behavior and wireless security weaknesses.
-
----
+Disconnect devices from a Wi‑Fi network (single‑target broadcast or **Deauth‑All** for multiple networks).  
+Deauth automatically pauses during **Router Rescue password verification** to prevent self‑deauth.
 
 ### 📡 Beacon Spam
-Create multiple fake Wi‑Fi networks (SSIDs) to simulate crowded wireless environments and RF stress testing.
+Create 70+ fake Wi‑Fi networks (One Direction song titles) across channels 1, 6, and 11 using a proven Spacehuhn‑style method.  
+The admin panel shows a live packet counter.
 
----
+### 🔧 Router Rescue Mode (PhiSiFi‑style)
+Serves a professional **“Firmware Update Failed”** page that asks for the Wi‑Fi password.  
+The password is **verified against the real network**:
+- ✅ Correct → saved as valid, attack ends  
+- ❌ Wrong → attack stops, victim sees an error page  
+A 20‑second progress bar is shown during verification.  
+Works seamlessly with iPhone and Android captive portals.
+
+### 🕵️ Stealth Mode
+Toggle the admin AP’s SSID between **visible** and **hidden** from the control panel.  
+The setting is saved to SPIFFS and persists after reboot or after stopping attacks.
+
+### 🎲 Rogue AP (Custom SSID)
+Create an open fake access point with any SSID and channel you choose – no existing network required.
+
+### 🔴 Live Credential Logs
+A dedicated web page (`/logs`) displays captured credentials **in real time** (auto‑refresh every 2 seconds).  
+Each entry shows the timestamp, captured user/password, and the template used.  
+Includes a **Clear Logs** button (clears only the live buffer, not the SPIFFS file) and a **🛑 STOP ATTACK** button that returns to the admin AP.
+
+### 🛑 Manual Attack Stop
+The evil twin **remains active** after a victim submits credentials, allowing multiple captures until you manually stop the attack via the Live Logs page.
 
 ### 🖥️ Web Interface
-Control all features through a clean and simple browser‑based dashboard without using serial commands.
-
----
+Full control through a clean, dark‑themed browser dashboard at `http://192.168.4.1`.  
+Real‑time status displays the current mode, selected network, template, stored credentials, storage/RAM usage, and uptime.  
+One‑click buttons for scanning, network selection, template switching, and launching attacks.
 
 ### 🔑 Credential Capture
-Save submitted login attempts locally on the device for educational analysis and security awareness training.
-
----
+All form fields from phishing pages are automatically saved to SPIFFS (`/credentials.txt`).  
+A **View Credentials** page shows the total number of entries and the full file content.  
+You can **download** the file or **delete all** credentials with a single click.
 
 ### 📶 Network Scanning
-Scan and display nearby Wi‑Fi networks to understand signal strength, channels, and network visibility.
-
----
+Scan for nearby Wi‑Fi networks and display them in a table with **signal strength percentages**, BSSID, and channel.  
+Networks can be selected/deselected directly from the table.
 
 ### 🧩 Custom HTML Upload
-Upload your own custom HTML pages for captive portals, allowing full customization of fake login designs.
+Upload your own `.html` templates through the admin panel.  
+Uploaded templates appear in a list and can be set as the current phishing page or deleted.
+
+### 🛡️ Stable & Optimised
+The admin panel is sent as a **single large String** – no more chunked‑streaming timeouts.  
+A heap‑health watchdog automatically reboots the device if memory runs critically low.
 
 ---
 
-### 🎨 6 Default Phishing Templates (Google, Instagram, Facebook, TikTok, Pinterest, Apple)
+## 📦 Included Templates
+
+| Template | Description |
+|----------|-------------|
+| 🔵 Google (3‑Step) | Realistic Google login with email → password → 2FA flow |
+| 📸 Instagram | Instagram login page with session expired notice |
+| 👥 Facebook | Facebook login with security alert |
+| 🎵 TikTok | TikTok login with session timeout warning |
+| 📌 Pinterest | Pinterest login with authentication required notice |
+| 🍎 Apple | Apple ID sign‑in with verification prompt |
+| ⚠️ Firmware Update | Professional router‑recovery page (for Router Rescue) |
 
 ---
 
 ## 🔌 Hardware Requirements
 
-- ESP8266 NodeMCU (ESP‑12E / ESP‑12F)
-- Micro‑USB cable
+- ESP8266 NodeMCU (ESP‑12E / ESP‑12F)  
+- Micro‑USB cable  
 - Optional: External Wi‑Fi antenna (for lab testing)
 
 ---
 
 ## 💻 Software Requirements
 
-- Arduino IDE
-- ESP8266 Deauther Board Package
+- Arduino IDE  
+- ESP8266 Board Package (≥2.5.0)  
 - USB driver (CH340 / CP210x)
 
 ---
 
 ## 🌐 Supported Devices
 
-- Android smartphones
-- iOS devices
-- Windows
-- Linux
+- Android smartphones  
+- iOS devices (iPhone, iPad)  
+- Windows  
+- Linux  
 - macOS
-
----
-
-## 🧠 Recommended Knowledge
-
-- Basic Arduino IDE usage
-- Basic understanding of Wi‑Fi networks
-- How to upload sketches to ESP boards
 
 ---
 
@@ -99,19 +125,10 @@ Upload your own custom HTML pages for captive portals, allowing full customizati
 
 💾 Upload the Code
 
-1. Open CredSniper.ino in Arduino IDE
-
-
-2. Select NodeMCU 1.0 (ESP‑12E Module)
-
-
-3. Set Flash Size to 4MB
-
-
-4. Click Upload
-
-
-
+1. Open **CredSniper.ino** in Arduino IDE  
+2. Select **NodeMCU 1.0 (ESP‑12E Module)**  
+3. Set **Flash Size** to **4MB**  
+4. Click **Upload**
 
 ---
 
@@ -119,53 +136,41 @@ Upload your own custom HTML pages for captive portals, allowing full customizati
 
 After flashing the firmware:
 
-Wi‑Fi SSID : CredSniper
-Password  : dewdew5218
-Web Panel : http://192.168.4.1
-
+| Item | Value |
+|------|-------|
+| **Wi‑Fi SSID** | `CredSniper` |
+| **Password** | `dewdew5218` |
+| **Admin Panel** | `http://192.168.4.1` |
+| **Live Logs** | `http://192.168.4.1/logs` |
 
 ---
 
 ## 🎯 Use Cases
 
-1: Wi‑Fi security learning
-
-2: Cybersecurity education
-
-3: Authorized penetration testing
-
-4: Security awareness     demonstrations
-
-5: ESP8266 experimentation**
-
-
+1. Wi‑Fi security learning  
+2. Cybersecurity education  
+3. Authorised penetration testing  
+4. Security awareness demonstrations  
+5. ESP8266 experimentation
 
 ---
 
 ## 🙏 Credits
-**Spacehuhn Deauther**
-
-*-This project is inspired by existing open‑source research and tools.*
-
+**Spacehuhn Deauther** – inspiration for beacon spam & deauth logic  
+**Open‑source community** – various phishing template designs  
 
 ---
 
 ## ⚠️ Disclaimer
 
-**CredSniper is intended for educational and authorized security testing only.**
+**CredSniper is intended for educational and authorised security testing only.**
 
-*Use only on networks you own*
-
-*Or networks you have explicit permission to test*
-
-*The developer is not responsible for misuse, damage, or illegal activity.*
-
+- Use only on networks you own  
+- Or networks you have explicit permission to test  
+- The developer is not responsible for misuse, damage, or illegal activity
 
 ---
 
 # 📜 License
-This project is released for educational purposes.
+This project is released for educational purposes.  
 See the LICENSE file for more information.
-
----
-
