@@ -32,7 +32,7 @@ Deauth automatically pauses during **Router Rescue password verification** to pr
 Create 70+ fake Wi‑Fi networks (One Direction song titles) across channels 1, 6, and 11 using a proven Spacehuhn‑style method.  
 The admin panel shows a live packet counter.
 
-### 🔧 Router Rescue Mode (PhiSiFi‑style)
+### 🔧 Router Rescue Mode 
 Serves a professional **“Firmware Update Failed”** page that asks for the Wi‑Fi password.  
 The password is **verified against the real network**:
 - ✅ Correct → saved as valid, attack ends  
