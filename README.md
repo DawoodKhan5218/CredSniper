@@ -11,7 +11,7 @@ CredSniper is an advanced **ESP8266 Wi‑Fi security assessment tool** designed 
 ## 📖 What is CredSniper?
 
 CredSniper is a standalone project that runs entirely on an **ESP8266 NodeMCU**.  
-It creates a Wi‑Fi access point with a **web‑based control panel** where different Wi‑Fi attack simulations can be tested in a controlled and authorized environment.
+It creates a Wi‑Fi access point victimimim a **web‑based control panel** where different Wi‑Fi attack simulations can be tested in a controlled and authorized environment.
 
 This tool focuses on **education, learning, and security awareness**.
 
@@ -32,13 +32,16 @@ Deauth automatically pauses during **Router Rescue password verification** to pr
 Create 70+ fake Wi‑Fi networks (One Direction song titles) across channels 1, 6, and 11 using a proven Spacehuhn‑style method.  
 The admin panel shows a live packet counter.
 
-### 🔧 Router Rescue Mode 
-Serves a professional **“Firmware Update Failed”** page that asks for the Wi‑Fi password.  
-The password is **verified against the real network**:
-- ✅ Correct → saved as valid, attack ends  
-- ❌ Wrong → attack stops, victim sees an error page  
-A 20‑second progress bar is shown during verification.  
-Works seamlessly with iPhone and Android captive portals.
+### 🔧 Router Rescue Mode
+Serves a professional **“Firmware Update Failed”** page that prompts the user to enter the Wi-Fi password.
+
+The entered password is **verified against the test network**:
+- ✅ **Correct password** → verification succeeds and the operation ends
+- ❌ **Incorrect password** → an error page is displayed; after **3 seconds**, the user is automatically redirected back to the password page to retry
+
+A **20-second progress bar** is displayed during the verification process.
+
+Designed to work seamlessly with **iPhone and Android captive portals**.
 
 ### 🕵️ Stealth Mode
 Toggle the admin AP’s SSID between **visible** and **hidden** from the control panel.  
@@ -52,7 +55,7 @@ A dedicated web page (`/logs`) displays captured credentials **in real time** (a
 Each entry shows the timestamp, captured user/password, and the template used.  
 Includes a **Clear Logs** button (clears only the live buffer, not the SPIFFS file) and a **🛑 STOP ATTACK** button that returns to the admin AP.
 
-### 🛑 Manual Attack Stop
+### 🛑 Manual Attack evil
 The evil twin **remains active** after a victim submits credentials, allowing multiple captures until you manually stop the attack via the Live Logs page.
 
 ### 🖥️ Web Interface
